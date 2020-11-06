@@ -1,0 +1,58 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Word Calculator</title>
+		<script src="main.js"></script>
+		<script type="text/javascript" src="MathJax/tex-mml-chtml.js"></script>
+
+	<style>
+		input {
+			text-align:center;
+			font-size: 18pt;
+		}
+
+		input[type=number] {
+			width: 80px;
+		}
+
+		#word {
+			width: 50%;
+		}
+
+		button {
+			font-size: 18pt;
+		}
+
+		table {
+			width: 100%;
+		}
+
+		table, th, td{
+			border: 1px solid black;
+			font-size: 18pt;
+		}
+
+		th, td {
+			
+			text-align: center;
+		}
+
+		body {
+			font-size: 18pt;
+		}
+	</style>
+	</head>
+
+	<body>
+		Pick <input id="n" value="4" type="number" min="1"> letter(s) <br><br> from <input id="word" value="engineering">
+		<br><br>
+		<button id="button" onclick="start()">Solve</button>
+		<br><br>
+		<div id="split"></div>
+		<br><br>
+	</body>
+
+</html>
